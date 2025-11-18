@@ -61,6 +61,25 @@ header {
     margin-left: 10px;
 }
 
+.logo-left {
+    font-family: 'Decalotype', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.logo-left .bolt {
+    margin: 0 -2px;   /* pulls the A and F closer to the bolt */
+    font-size: 28px;
+    color: #ff7a00;   /* your orange */
+}
+
+.logo-left span {
+    letter-spacing: -2px;
+}
+
 nav a {
     margin-left: 28px;
     text-decoration: none;
